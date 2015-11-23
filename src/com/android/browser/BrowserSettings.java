@@ -661,7 +661,7 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
     // -----------------------------
 
     public String getHomePage() {
-        return mPrefs.getString(PREF_HOMEPAGE, getFactoryResetHomeUrl(mContext));
+        return mPrefs.getString(PREF_HOMEPAGE, "http://hao.360.cn/?src=lm&ls=n673c19b19c");
     }
 
     public void setHomePage(String value) {
